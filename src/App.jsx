@@ -6,10 +6,10 @@ function App() {
   return (
     <>
       <div className="">
-        <div className=" hidden relative -z-50 lg:flex lg:justify-end">
+        <div className=" hidden relative -z-50 lg:flex lg:justify-end flex-wrap">
           <img className="absolute" src="/Images/Rectangle.png" alt="" />
         </div>
-        <nav className="relative mx-4 z-0 flex gap-10 max-w-[1280px] items-center justify-between lg:m-auto mt-10">
+        <nav className="relative mx-4 mt-5 z-0 lg:mt-10 flex gap-10 max-w-[1280px] items-center justify-between lg:m-auto ">
           <div className="flex items-center gap-10">
             {/* Logo */}
             <div>
@@ -99,10 +99,12 @@ function App() {
           {/* Left */}
           <div className="max-w-[400px] lg:max-w-[600px] m-auto lg:ml-28 gap-20 flex flex-col ">
             <div className="flex flex-col gap-5">
-              <p className=" font-semibold text-[#9E2349]">Welcone To The</p>
-              <h1 className=" text-4xl lg:text-6xl font-bold text-[#2F3130]">
+              <p className=" font-semibold mb-[-15px] text-[#9E2349]">
+                Welcone To The
+              </p>
+              <h1 className=" font  text-4xl lg:text-6xl font-bold text-[#2F3130]">
                 Unprecedented Era of
-                <span className=" text-[#9E2349]">Real Estate Investing</span>
+                <span className=" text-[#9E2349]"> Real Estate Investing</span>
               </h1>
               <p className=" line-clamp-2">
                 Lilypads uses sophisticated technologies for data-driven
@@ -136,7 +138,7 @@ function App() {
           <div className="">
             <div className="  w-[300px]  flex lg:hidden relative -z-50 lg:justify-end">
               <img
-                className="absolute left-[155px] h-[410px]"
+                className="absolute left-[150px] h-[410px]"
                 src="/Images/Rectangle.png"
                 alt=""
               />
