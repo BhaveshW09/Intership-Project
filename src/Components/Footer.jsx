@@ -5,22 +5,22 @@ export const Footer = () => {
     <>
       <div className=" bg-[#202221] text-white ">
         <div
-          className="  text-xs flex flex-col lg:flex-row 
-        lg:max-w-[1280px] mx-4  lg:m-auto justify-center items-center lg:justify-between py-10 gap-10"
+          className=" max-w-[26em] sm:max-w-lg md:max-w-xl lg:max-w-[1280px]  mx-auto   text-xs flex flex-col lg:flex-row 
+          lg:m-auto justify-center items-center lg:justify-between py-10 gap-10"
         >
           {/* Left Footer */}
-          <div className=" max-w-[600px] m-auto flex flex-col justify-center lg:justify-between gap-10 ">
-            <div className="">
+          <div className=" 1/2 flex flex-col justify-center gap-6">
+            <div className="text-center lg:text-left">
               <input
-                className=" border p-1 rounded-md relative w-[350px] lg:w-[392px] px-6 py-3 bg-[#202221] "
+                className=" border p-1 rounded-md relativew-full px-6 py-3 bg-[#202221] lg:w-full "
                 type="text"
                 placeholder="Enter your email here"
               />
-              <button className=" rounded-md py-2 px-4 bg-black absolute left-[192px] lg:left-[355px] mt-[5px]">
+              <button className=" lg:absolute lg:-ml-[170px] lg:mt-[5px] rounded-md py-2 px-4 bg-black  mt-[10px]">
                 Subscribe To Newsletter
               </button>
             </div>
-            <div className="">
+            <div className="text-center lg:text-left">
               <h3 className=" text-2xl font-semibold ">
                 Signup and start enjoying the benifits today!
               </h3>
@@ -28,7 +28,7 @@ export const Footer = () => {
                 Sign Up To Lilypads
               </button>
             </div>
-            <div className=" flex w-[400px]">
+            <div className=" flex w-full  max-w-xs lg:max-w-full lg:-ml-3">
               <svg
                 width="74"
                 height="74"
@@ -414,13 +414,13 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className=" m-auto w-96 h-[1px] lg:h-96 lg:w-[1px] bg-white opacity-60"></div>
+          <div className=" w-full m-auto h-[1px] lg:h-96 lg:w-[1px] bg-white opacity-60"></div>
 
           {/* Right Footer */}
-          <div className=" flex max-w-[600px] justify-between items-center">
+          <div className=" flex justify-center items-center text-center lg:text-left w-1/2 flex-col lg:flex-row">
             {/* 1st sec */}
             <div className=" flex flex-col gap-10 ">
-              <div>
+              <div className="ml-2 lg:ml-0">
                 <svg
                   width="90"
                   height="54"

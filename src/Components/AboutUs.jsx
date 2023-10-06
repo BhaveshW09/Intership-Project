@@ -4,7 +4,7 @@ export const AboutUs = () => {
   return (
     <>
       <div className=" bg-[#F5F4F8]">
-        <div className=" mt-[20px] py-28 gap-16 lg:gap-0 max-w-[400px] lg:max-w-[1280px] m-auto grid grid-cols-1 lg:grid-cols-3">
+        <div className="max-w-[20em] sm:max-w-lg md:max-w-xl lg:max-w-[1280px]  mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:py-20">
           <div className=" flex flex-col gap-5 p-4 border-b-2 lg:border-r-2 lg:border-b-2 border-black">
             <p className=" text-[#9E2349] font-semibold">About Us</p>
             <p className=" text-4xl">
@@ -12,8 +12,8 @@ export const AboutUs = () => {
               business
             </p>
           </div>
-          <div className=" p-6 border-b-2  lg:border-r-2 lg:border-b-2 border-black flex flex-col gap-5 justify-center">
-            <div className=" flex gap-5 items-center">
+          <div className=" p-6 border-b-2  lg:border-r-2 lg:border-b-2 border-black flex flex-col gap-2 justify-center">
+            <div className=" flex gap-2 items-center">
               <svg
                 width="130"
                 height="130"
@@ -102,8 +102,8 @@ export const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className=" p-6 border-b-2 lg:border-b-2 border-black flex flex-col gap-5 justify-center">
-            <div className=" flex gap-5 items-center">
+          <div className=" p-6 border-b-2 lg:border-b-2 border-black flex flex-col gap-2 justify-center">
+            <div className=" flex gap-2 items-center">
               <svg
                 width="130"
                 height="130"
@@ -192,8 +192,8 @@ export const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className=" p-6 border-b-2 lg:border-b-0 lg:border-r-2 border-black flex flex-col gap-5 justify-center">
-            <div className=" flex gap-5 items-center">
+          <div className=" p-6 border-b-2 lg:border-b-0 lg:border-r-2 border-black flex flex-col gap-2 justify-center">
+            <div className=" flex gap-2 items-center">
               <svg
                 width="130"
                 height="130"
@@ -282,8 +282,8 @@ export const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className=" p-6 border-b-2 lg:border-b-0 lg:border-r-2 border-black flex flex-col gap-5 justify-center">
-            <div className=" flex gap-5 items-center">
+          <div className=" p-6 border-b-2 lg:border-b-0 lg:border-r-2 border-black flex flex-col gap-2 justify-center">
+            <div className=" flex gap-2 items-center">
               <svg
                 width="130"
                 height="130"
@@ -372,7 +372,7 @@ export const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className=" p-6 border-b-2 lg:border-b-0 border-black flex flex-col gap-5 justify-center">
+          <div className=" p-6  lg:border-b-0 border-black flex flex-col gap-2 justify-center">
             <div className=" flex gap-5 items-center">
               <svg
                 width="130"
