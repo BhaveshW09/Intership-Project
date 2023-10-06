@@ -51,7 +51,7 @@ export const Herosection = () => {
           {/* Background Image */}
           <div className="  relative ">
             <img
-              className=" max-h-[420px] sm:max-h-[420px] lg:max-h-[1000px] w-auto absolute -mt-28 right-0 -z-50"
+              className=" max-h-[420px] sm:max-h-[420px] lg:max-h-[1000px] w-auto absolute -mt-32 right-0 -z-20"
               src="/Images/Rectangle.png"
               alt=""
             />

@@ -1,4 +1,5 @@
 import React from "react";
+import { BsDash } from "react-icons/bs";
 
 export const AboutUs = () => {
   return (
@@ -6,8 +7,13 @@ export const AboutUs = () => {
       <div className=" bg-[#F5F4F8]">
         <div className="max-w-[20em] sm:max-w-lg md:max-w-xl lg:max-w-[1280px]  mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:py-20">
           <div className=" flex flex-col gap-5 p-4 border-b-2 lg:border-r-2 lg:border-b-2 border-black">
-            <p className=" text-[#9E2349] font-semibold">About Us</p>
-            <p className=" text-4xl">
+            <div className=" flex items-center gap-1">
+              <BsDash className=" mt-4 h-6" />
+              <p className=" font-semibold mb-[-15px] text-[#9E2349]">
+                About Us
+              </p>
+            </div>
+            <p className=" text-xl sm:text-2xl md:text-3xl lg:text-4xl">
               Lillypad is the only Real Estate Investment tool you need for your
               business
             </p>
