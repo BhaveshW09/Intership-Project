@@ -1,5 +1,6 @@
 import React from "react";
 import { BsDash } from "react-icons/bs";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 export const Herosection = () => {
   return (
@@ -24,8 +25,11 @@ export const Herosection = () => {
               in investing, managing and funding commercial real estate assets
             </p>
             <div className="">
-              <button className=" py-3 px-6 rounded-2xl bg-[#7D59C3] text-white">
-                Start Investing Now <span></span>
+              <button className=" flex  items-center gap-2 py-3 px-6 rounded-2xl bg-[#7D59C3] text-white">
+                <p>Start Investing Now</p>
+                <span>
+                  <FaLongArrowAltRight />
+                </span>
               </button>
             </div>
           </div>
